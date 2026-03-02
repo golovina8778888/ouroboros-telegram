@@ -1,0 +1,13 @@
+# Ignore environment files containing secrets and tokens.
+.env
+
+# Ignore Python cache and compiled files.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore node_modules if this repository ever includes JavaScript dependencies.
+node_modules/
+
+# Ignore local development files.
+.DS_Store
